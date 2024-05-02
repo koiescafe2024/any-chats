@@ -1,0 +1,248 @@
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.menu{
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  width: 100vw;
+  height: 40px;
+  padding: 15px 0px;
+  border-bottom: 1px solid lightgrey;
+}
+
+/* Assuming a simple flex container for alignment */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style for the input */
+.input-field {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px; /* Adjust margin as needed */
+  flex-grow: 1; /* Allow the input to grow to take available space */
+}
+
+/* Style for the button */
+.broadcast-button {
+  padding: 10px 30px;
+  background-color: #43840E;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Optional: Hover effect for the button */
+.broadcast-button:hover {
+  background-color: #45a049;
+}
+
+.chat-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 15%;
+}
+
+/* Style for the select element */
+.chat-menu-select {
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Style for the options within the select */
+.chat-menu-select option {
+  background-color: #fff;
+  color: #333;
+}
+
+.chat-menu-item {
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.05);
+  margin-top: 10px;
+  padding: 3px;
+  padding-left: 15px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.chat-interface {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  height: 90%;
+}
+
+.chat-interface-item {
+  margin: 15px 0;
+
+}
+
+.chat-interface-item-user {
+  text-align: left;
+}
+
+.chat-interface-item-admin {
+  text-align: right;
+}
+
+.chat-interface-item-bubble-admin {
+  padding: 10px;
+  border-radius: 25px;
+  max-width: 70%;
+  position: relative;
+  background: whitesmoke;
+  border: 2px solid whitesmoke;
+  text-align: left;
+  margin-left: 30%;
+}
+
+.chat-interface-item-bubble-user {
+  margin: 0px 0;
+  padding: 10px;
+  border-radius: 25px;
+  max-width: 70%;
+  position: relative;
+  border: 2px solid whitesmoke;
+  text-align: left;
+  margin-right: 30%;
+}
+
+.chat-timestamp {
+  font-size: 12px;
+  color: #666;
+  margin-top: 4px;
+}
+
+.chat-input-container {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  margin: 0px 10px;
+}
+
+.chat-input {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  padding-bottom: 40px;
+}
+
+.chat-input:focus {
+  outline: none;
+}
+
+.chat-input:focus {
+}
+
+.send-button {
+  padding: 10px 15px;
+  background-color: #43840E;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.file-input-container {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.file-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  font-size: 16px; /* Adjust font size if needed */
+}
+
+.custom-file-button {
+  display: inline-block;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Optional: Hover effect for the custom file button */
+.custom-file-button:hover {
+  background-color: #45a049;
+}
+
+/* Optional: Hover effect for the send button */
+.send-button:hover {
+  background-color: #45a049;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent grey background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content {
+  text-align: center;
+}
+
+
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #999; /* Color of the thumb */
+  border-radius: 4px; /* Rounded corners of the thumb */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #eee; /* Color of the track */
+}
+
+/* Optional: Handle when the user hovers over the scrollbar */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #888 /* Adjust color on hover */
+}
+
+

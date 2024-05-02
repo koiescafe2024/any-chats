@@ -1,0 +1,25 @@
+[
+  {
+    "type": "message",
+    "message": {
+      "type": "text",
+      "id": "503134241266073714",
+      "quoteToken": "dePzBlA4zM-VJAxK5Ff5zdpkTEHmSGmWCNqy47b92gV3uL5fJI8qUsRkMt3AyG4izqJtybtv_qoM_B3OBOuNEARaVnUdn2_fZ7Ru9zCBmStjlV37dGYL13m3A2GfpCV0M5otuZWZQRs5RhTVnDnIrw",
+      "text": "Hi"
+    },
+    "webhookEventId": "01HV33M7K95FDBWH6AGQ4JDMV3",
+    "deliveryContext": {
+      "isRedelivery": false
+    },
+    "timestamp": 1712722681298,
+    "source": {
+      "type": "user",
+      "userId": "Uc374ab586b8d33c2a182ee5257aaa5d5"
+    },
+    "replyToken": "509c5d035ff94153b90eadffec28aac0",
+    "mode": "active",
+    "created_at": 1712722682925,
+    "chatbot_id": 2004584543,
+    "status": "Unread"
+  }
+]
