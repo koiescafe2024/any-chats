@@ -45,11 +45,11 @@ const Header = ( {setReRender, selectedChatBot} ) => {
 
     return(
         <div className="header">
-            <div style={{ alignSelf: "flex-start", width: "35%", marginLeft: "25px"}}>
+            <div style={{ alignSelf: "flex-start", width: "60%", marginLeft: "25px"}}>
                 <img src={logo} alt="KooChat Logo" height="50px"/>
             </div>
             <div className="container" style={{ alignSelf: "center" }}>
-                <input className="input-field" onChange={e => handleChange(e.target.value)} placeholder="Type your message" />
+                <input className="input-field" onChange={e => handleChange(e.target.value)} style={{ width: "60%"}} placeholder="Type your message" />
                 <Image
                     setReplyImage={setReplyImage}
                 />
