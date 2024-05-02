@@ -22,7 +22,7 @@ const SharedFiles = ({ onClose, title, content, buttons, profile_id }) => {
     return (
       <div style={{maxHeight: "70vh", overflowY: "auto"}}>
         <div>
-             <h2>Uploaded files</h2>
+             <h2>Uploaded Files</h2>
             <File
             />
         </div>

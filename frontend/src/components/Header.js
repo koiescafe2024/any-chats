@@ -49,11 +49,11 @@ const Header = ( {setReRender, selectedChatBot} ) => {
                 <img src={logo} alt="KooChat Logo" height="50px"/>
             </div>
             <div className="container" style={{ alignSelf: "center" }}>
-                <input className="input-field" onChange={e => handleChange(e.target.value)} style={{ width: "60%"}} placeholder="Type your message" />
+                <input className="input-field" onChange={e => handleChange(e.target.value)} style={{ width: "40%"}} placeholder="Type your message" />
                 <Image
                     setReplyImage={setReplyImage}
                 />
-                <button className="broadcast-button" style={{display: "flex", justifyContent: "center", alignItems: "center", borderRadius: "25px"}} onClick={() => handleClick()}><img src={broadcast} height="20px"/> Broadcast message</button>
+                <button className="broadcast-button" style={{display: "flex", justifyContent: "center", alignItems: "center", borderRadius: "25px"}} onClick={() => handleClick()}><img src={broadcast} height="20px"/> Broadcast Message</button>
             </div>
         </div>
     )
