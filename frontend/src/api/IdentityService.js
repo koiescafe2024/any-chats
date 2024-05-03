@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const server_url = "https://any-chats-backend.6o1yzt.easypanel.host";
+const server_url = "https://olll-cha-ts-backend.6o1yzt.easypanel.host";
 //const server_url = "https://definitelynotabank.com"
 // const server_url = "http://ec2-13-215-184-19.ap-southeast-1.compute.amazonaws.com:1080"
 
