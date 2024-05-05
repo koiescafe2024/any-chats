@@ -11,23 +11,23 @@ function App() {
   const [userMerchant, setUserMerchant] = useState({})
   
   useEffect( () => {
-   // IdentityService.isAuth2()
-   // .then(resp => {
+    IdentityService.isAuth2()
+    .then(resp => {
       
-     // const user = resp.data.user;
+      const user = resp.data.user;
       // const user_merchant = resp.data.user_merchant;
-    // setUser(user)
+     setUser(user)
       // setProfile(user_merchant)
       
       
       
-   // })
-   // .catch(err => {
-   //   console.log(err);
-    //  if (window.location.href !== "http://localhost:3000/login"){
-     //   window.location.href ="/"
-    //  }
-   // })
+    })
+    .catch(err => {
+      console.log(err);
+      if (window.location.href !== "http://localhost:3000/login"){
+        window.location.href ="/"
+      }
+    })
 
     // IdentityService.isAuth(params.user_id, params.profile_id)
     //   .then( resp => {
