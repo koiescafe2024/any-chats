@@ -6,7 +6,7 @@ const Website = () => {
 
     const handleLoginClick = () => {
         // URL for the login page that will be opened in the popup
-        const loginUrl = `login?success_url=${encodeURIComponent(window.location.origin)}`; // Adjust this URL as needed
+        const loginUrl = `https://181f-2401-4900-1c2b-c482-ac7c-f0cf-7e28-ac0b.ngrok-free.app/login/2004094870?success_url=${encodeURIComponent(window.location.origin)}`; // Adjust this URL as needed
         // const loginUrl = `https://master.drkcd9ol0en6z.amplifyapp.com/login/1708286357796?success_url=${encodeURIComponent(window.location.origin)}`; // Adjust this URL as needed
         const windowFeatures = 'width=600,height=700,left=200,top=200';
 
