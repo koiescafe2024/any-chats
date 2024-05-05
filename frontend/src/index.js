@@ -8,7 +8,7 @@ import Home from './routes/Home';
 import Login from './routes/Login';
 import Signup from './routes/Signup';
 import Website from './routes/Website';
-
+import _Login from './routes/_login';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
@@ -18,8 +18,8 @@ root.render(
 
         {/* <Route path="/" element={<Website />}/> */}
         <Route path="/login" element={<Login />}/>
-        {/* <Route path="/signup" element={<Signup />}/> */}
-
+        <Route path="/signup" element={<Signup />}/>
+        <Route path="/_login" element={<_Login />}/>
         <Route path="/" element={<Website />} />
         <Route path="/" element={<App />}>
           <Route path="/:user_id/:profile_id" element={<Home />}/>
