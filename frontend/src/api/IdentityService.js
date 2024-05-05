@@ -29,7 +29,7 @@ class IdentityService {
     }
 
     isAuth = async (current_user_id, current_profile_id) => {
-        // try {
+         try {
             return await axios
                 .post(`${server_url}/user/isAuth`, {
                     current_user_id: current_user_id,
@@ -37,14 +37,14 @@ class IdentityService {
                 }, 
                 { withCredentials: true }
                 );
-        // } catch (err) {
-        //     return console.log(err);
-        // }
+         } catch (err) {
+             return console.log(err);
+         }
     }
 
     isAuth2 = async () => {
         const token = localStorage.getItem('authToken');
-        // try {
+         try {
             return await axios
                 .post(`${server_url}/user/isAuth2`, {},
                 {
@@ -55,9 +55,9 @@ class IdentityService {
                       }
                 }
                 );
-        // } catch (err) {
-        //     return console.log(err);
-        // }
+         } catch (err) {
+             return console.log(err);
+         }
     }
 }
 
