@@ -58,7 +58,7 @@ const Website = () => {
                         <br/>                        
                     </div>
                 </div>
-                <div>
+                <div style={{marginLeft:"50%"}}>
                         <img src={fblinelogo} height="80px"></img>
                         <br/><br/>
                         <button className="broadcast-button" style={{padding: "20px 50px", fontSize: "18px"}} onClick={handleLoginClick}><strong>Log in</strong></button>
