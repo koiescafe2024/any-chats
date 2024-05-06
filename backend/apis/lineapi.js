@@ -113,6 +113,7 @@ router.post('/chats/get', async (req, res) => {
 });
 
 router.post('/chats/update', async (req, res) => {
+    console.log("chats / update endpoint called");
     const { chatbot_id, user_id } = req.body
     try {
         const messages = await DatabaseService.readFile("messages.json");
