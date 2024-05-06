@@ -49,7 +49,7 @@ const Website = () => {
                 <div style={{display: "flex", justifyContent: "space-around"}}>
                     <div>
                         <h1 style={{fontSize: "52px"}}>Welcome to AllChats.</h1>
-                        <p style={{color: "grey", fontSize: "20px"}}>Your central hub for managing multiple chatbots.</p>
+                        <p style={{color: "grey", fontSize: "20px"}}>Your central hub for messaging to multiple platforms.</p>
                     </div>
                    
                     <div style={{display: "flex", alignItems: "center", justifyContent: "center"}}>
