@@ -139,6 +139,7 @@ const Chat = ( {selectedChatBot, selectedUser, setSelectedUser, socket, color, s
         admin: user,
         messages: messages
       }
+      console.log("user id="+selectedUser.userId);
       socket.send(JSON.stringify(socketMessage))
       setReply("")
       setReplyImage({})
