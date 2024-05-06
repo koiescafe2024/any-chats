@@ -53,13 +53,15 @@ const Website = () => {
                     </div>
                    
                     <div style={{display: "flex", alignItems: "center", justifyContent: "center"}}>
-                        <button className="broadcast-button" style={{padding: "20px 50px", fontSize: "18px"}} onClick={handleLoginClick}><strong>Log in</strong></button>
+                       
                         <br/>
                         <br/>                        
                     </div>
                 </div>
                 <div>
-                        <img src={fblinelogo} height="70px"></img>
+                        <img src={fblinelogo} height="80px"></img>
+                        <br/><br/>
+                        <button className="broadcast-button" style={{padding: "20px 50px", fontSize: "18px"}} onClick={handleLoginClick}><strong>Log in</strong></button>
                     </div>
             </div>
            
