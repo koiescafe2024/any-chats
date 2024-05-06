@@ -59,7 +59,7 @@ const Website = () => {
                     </div>
                 </div>
                 <div>
-                        <img src={fblinelogo} height="50px"></img>
+                        <img src={fblinelogo} height="70px"></img>
                     </div>
             </div>
            
