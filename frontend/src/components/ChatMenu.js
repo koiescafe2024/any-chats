@@ -98,7 +98,7 @@ const ChatMenu = ({ chatBots, selectedChatBot, setSelectedChatBot, chats, setCha
                                 style={{
                                     background:
                                     user.userId === selectedUser.userId && user.chatbot.id === selectedUser.chatbot.id
-                                        ? "rgba(67, 132, 14, 0.17)" // #43840E with 17% opacity
+                                        ? "lightgoldenrodyellow" // #43840E with 17% opacity
                                         : user.userId === selectedUser2.userId && user.chatbot.id === selectedUser2.chatbot.id
                                             ? "#FEF1E9"
                                             : user.color
