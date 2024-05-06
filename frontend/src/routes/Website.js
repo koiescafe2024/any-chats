@@ -1,5 +1,7 @@
 import { useNavigate } from "react-router-dom";
-import logo from "../assets/KooChat_logo.png"
+import logo from "../assets/KooChat_logo.png";
+import fblinelogo from "../assets/fb-line.png";
+
 
 const Website = () => {
     const navigate = useNavigate();
@@ -48,6 +50,9 @@ const Website = () => {
                     <div>
                         <h1 style={{fontSize: "52px"}}>Welcome to AllChats.</h1>
                         <p style={{color: "grey", fontSize: "20px"}}>Your central hub for managing multiple chatbots.</p>
+                    </div>
+                    <div>
+                        <img src={fblinelogo} height="50px"></img>
                     </div>
                     <div style={{display: "flex", alignItems: "center", justifyContent: "center"}}>
                         <button className="broadcast-button" style={{padding: "20px 50px", fontSize: "18px"}} onClick={handleLoginClick}><strong>Log in</strong></button>
