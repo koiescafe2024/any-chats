@@ -59,7 +59,7 @@ const Website = () => {
                     </div>
                 </div>
                 <div style={{marginLeft:"50%"}}>
-                        <img src={fblinelogo} height="80px"></img>
+                        <img src={fblinelogo} height="80px" width="153px"></img>
                         <br/><br/>
                         <button className="broadcast-button" style={{padding: "20px 50px", fontSize: "18px"}} onClick={handleLoginClick}><strong>Log in</strong></button>
                     </div>
