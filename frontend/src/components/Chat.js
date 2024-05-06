@@ -199,7 +199,7 @@ const Chat = ( {selectedChatBot, selectedUser, setSelectedUser, socket, color, s
         left: 0,
         width: '100%',
         height: '100%',
-        backgroundColor: 'rgba(0, 0, 0, 0.9)',
+        backgroundColor: 'lightgoldenrodyellow',
         zIndex: 1000, // Ensure it's above everything else
         display: 'flex',
         justifyContent: 'center',
