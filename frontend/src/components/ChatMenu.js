@@ -163,13 +163,13 @@ const ChatMenu = ({ chatBots, selectedChatBot, setSelectedChatBot, chats, setCha
                                         style={{
                                             position: "absolute",
                                             lineHeight: "0",
-                                            bottom: "0%",
-                                            right: "2.5%",
+                                            bottom: "85%",
+                                            right: "94.5%",
                                             fontSize: "8px",
                                             userSelect: "none",
                                         }}
                                         >
-                                            <img src={unread} height="12.5px"/>
+                                            <img src={unread} height="10px"/>
                                         </span>
                                         : null
                                     }
