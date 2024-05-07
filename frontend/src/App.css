@@ -109,7 +109,7 @@
 
 .chat-interface-item-bubble-admin {
   padding: 10px;
-  border-radius: 25px;
+  border-radius: 15px;
   max-width: 70%;
   position: relative;
   background: yellowgreen;
@@ -123,7 +123,7 @@
 .chat-interface-item-bubble-user {
   margin: 0px 0;
   padding: 10px;
-  border-radius: 25px;
+  border-radius: 15px;
   max-width: 70%;
   position: relative;
   border: 1px solid lightgray;
