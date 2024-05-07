@@ -219,11 +219,10 @@ const Chat = ( {selectedChatBot, selectedUser, setSelectedUser, socket, color, s
                     <img src={selectedUser.pictureUrl ? selectedUser.pictureUrl : null} height="35px" width="35px" style={{borderRadius: "50px"}}/>
                     <p style={{marginLeft:"5px"}}> {selectedUser.displayName}</p>
                   </div>
-                  
+                  <p style={{background: selectedChatBot ? selectedChatBot.color : null, borderRadius: "20px", padding: "0px 2px",fontSize:"12px"}}>{selectedChatBot ? selectedChatBot.name : null}</p>
                   <img onClick={() => setSelectedUser({})} src={close} height="20px" width="20px" style={{cursor: "pointer"}}/>
               </div>
-              <div style={{background: color, height: "20px"}}>
-                <span style={{fontSize:"12px",fontStyle:"italic"}}>Agent ({selectedChatBot ? selectedChatBot.name : null})</span>
+              <div style={{background: color, height: "1px"}}>
               </div>
               <div style={{display: "flex"}}>
                   <div style={{width: "100%"}}>

@@ -124,7 +124,7 @@
   border-radius: 25px;
   max-width: 70%;
   position: relative;
-  border: 2px solid whitesmoke;
+  border: 1px solid black;
   text-align: left;
   margin-right: 30%;
 }
