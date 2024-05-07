@@ -213,7 +213,7 @@ const Chat = ( {selectedChatBot, selectedUser, setSelectedUser, socket, color, s
 
     return(
         <div style={{display: "flex"}}>
-          <div className="chat" style={{boxShadow: "inset 0 4px 8px lightgoldenrodyellow", borderRadius: "20px", margin: "0px 15px"}}>
+          <div className="chat" style={{boxShadow: "inset 0 4px 8px lightgoldenrodyellow", background:"lightgoldenrodyellow", borderRadius: "20px", margin: "0px 15px"}}>
               <div style={{display: "flex", justifyContent: "space-between", alignItems: "center", width: "90%", padding: "15px 15px 5px 15px"}}>
                   <div style={{display: "flex", alignItems: "center"}}>
                     <img src={selectedUser.pictureUrl ? selectedUser.pictureUrl : null} height="35px" width="35px" style={{borderRadius: "50px"}}/>
