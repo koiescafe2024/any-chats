@@ -78,12 +78,13 @@
 .chat-menu-item {
   box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.05);
   margin-top: 10px;
-  padding: 3px;
-  padding-left: 15px;
+  padding: 5px;
+  padding-left: 10px;
   cursor: pointer;
   position: relative;
   display: flex;
   align-items: center;
+  border-radius:10px;
 }
 
 .chat-interface {
