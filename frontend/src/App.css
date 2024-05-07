@@ -127,10 +127,10 @@
   max-width: 70%;
   position: relative;
   border: 1px solid yellowgreen;
-  background: darkslategrey;
+  background: white;
   text-align: left;
   margin-right: 30%;
-  color: white;
+  color: black;
 }
 
 .chat-timestamp {
