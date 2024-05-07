@@ -100,7 +100,7 @@ const ChatMenu = ({ chatBots, selectedChatBot, setSelectedChatBot, chats, setCha
                                     user.userId === selectedUser.userId && user.chatbot.id === selectedUser.chatbot.id
                                         ? "lightgoldenrodyellow" // #43840E with 17% opacity
                                         : user.userId === selectedUser2.userId && user.chatbot.id === selectedUser2.chatbot.id
-                                            ? "#FEF1E9"
+                                            ? "#lightgoldenrodyellow"
                                             : user.color
                                   }}
                                 >
