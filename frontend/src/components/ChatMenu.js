@@ -101,7 +101,7 @@ const ChatMenu = ({ chatBots, selectedChatBot, setSelectedChatBot, chats, setCha
                                         ? "lightgoldenrodyellow" // #43840E with 17% opacity
                                         : user.userId === selectedUser2.userId && user.chatbot.id === selectedUser2.chatbot.id
                                             ? "#lightgoldenrodyellow"
-                                            : user.color
+                                            : "lightgoldenrodyellow"
                                   }}
                                 >
                                     <img src={user.pictureUrl ? user.pictureUrl : user.pictureUrl} height="35 px" width="35px" style={{borderRadius: "50px"}}/>
