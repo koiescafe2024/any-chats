@@ -107,7 +107,12 @@ const ChatMenu = ({ chatBots, selectedChatBot, setSelectedChatBot, chats, setCha
                                     <img src={user.pictureUrl ? user.pictureUrl : user.pictureUrl} height="35 px" width="35px" style={{borderRadius: "50px"}}/>
                                     <div style={{padding: "5px"}}>
                                         <div style={{display: "flex", alignItems: "center"}}>
+                                    {  user.status === "Unread" 
+                                        ? 
+                                            <span style={{fontSize: "14px",fontWeight:"bold"}}>{user.displayName}</span>
+                                            :
                                             <span style={{fontSize: "14px"}}>{user.displayName}</span>
+                                    }
                                             {/* <img style={{marginLeft: "5px"}} src="https://www.clker.com/cliparts/R/d/z/v/H/1/neon-green-dot-md.png" height="5px" width="5px"/> */}
                                         </div>
                                         <span
