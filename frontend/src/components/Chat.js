@@ -216,8 +216,8 @@ const Chat = ( {selectedChatBot, selectedUser, setSelectedUser, socket, color, s
           <div className="chat" style={{boxShadow: "inset 0 4px 8px lightgoldenrodyellow", background:"lightgoldenrodyellow", borderRadius: "20px", margin: "0px 15px"}}>
               <div style={{display: "flex", justifyContent: "space-between", alignItems: "center", width: "90%", padding: "15px 15px 5px 15px"}}>
                   <div style={{display: "flex", alignItems: "center"}}>
-                    <img src={selectedUser.pictureUrl ? selectedUser.pictureUrl : null} height="35px" width="35px" style={{borderRadius: "50px"}}/>
-                    <p style={{marginLeft:"5px"}}> {selectedUser.displayName}</p>
+                    <img src={selectedUser.pictureUrl ? selectedUser.pictureUrl : null} height="50px" width="50px" style={{borderRadius: "50px"}}/>
+                    <p style={{marginLeft:"5px",fontWeight:"bold",fontSize:"large"}}> {selectedUser.displayName}</p>
                   </div>
                   <p style={{background: selectedChatBot ? selectedChatBot.color : null, borderRadius: "20px", padding: "0px 2px",fontSize:"12px"}}>{selectedChatBot ? selectedChatBot.name : null}</p>
                   <img onClick={() => setSelectedUser({})} src={close} height="20px" width="20px" style={{cursor: "pointer"}}/>
