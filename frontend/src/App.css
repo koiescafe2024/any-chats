@@ -112,8 +112,8 @@
   border-radius: 25px;
   max-width: 70%;
   position: relative;
-  background: whitesmoke;
-  border: 2px solid whitesmoke;
+  background: yellowgreen;
+  border: 1px solid white;
   text-align: left;
   margin-left: 30%;
 }
@@ -124,7 +124,7 @@
   border-radius: 25px;
   max-width: 70%;
   position: relative;
-  border: 1px solid black;
+  border: 1px solid yellowgreen;
   text-align: left;
   margin-right: 30%;
 }
