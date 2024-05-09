@@ -2,7 +2,7 @@ import axios from "axios"
 
 // const server_url = "http://localhost:9000/admin";
 // const server_url = "https://f9ff-37-152-145-152.ngrok-free.app/admin";//
-const server_url = "https://any-chats-back-end-chat.yi9ne2.easypanel.host/admin";
+const server_url = "https://any-chats-back-end-chat.yi9ne2.easypanel.host:9000/admin";
 // const server_url = "http://ec2-13-215-184-19.ap-southeast-1.compute.amazonaws.com:9000/admin";
 
 class AdminService{
