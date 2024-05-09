@@ -15,8 +15,8 @@ const Image = ( {replyImage, setReplyImage} ) => {
             } else {
                 const reply = {
                     type: "image",
-                    originalContentUrl: `https://181f-2401-4900-1c2b-c482-ac7c-f0cf-7e28-ac0b.ngrok-free.app/files/${fileName}`,
-                    previewImageUrl: `https://181f-2401-4900-1c2b-c482-ac7c-f0cf-7e28-ac0b.ngrok-free.app/${fileName}`
+                    originalContentUrl: `https://any-chats-back-end-chat.yi9ne2.easypanel.host/files/${fileName}`,
+                    previewImageUrl: `https://any-chats-back-end-chat.yi9ne2.easypanel.host/${fileName}`
                 }
         
                 setReplyImage(reply)
