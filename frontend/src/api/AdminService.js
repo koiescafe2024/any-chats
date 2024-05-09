@@ -1,8 +1,8 @@
 import axios from "axios"
 
 // const server_url = "http://localhost:9000/admin";
-// const server_url = "https://f9ff-37-152-145-152.ngrok-free.app/admin";
-const server_url = "https://olll-cha-ts-backend.6o1yzt.easypanel.host/admin";
+// const server_url = "https://f9ff-37-152-145-152.ngrok-free.app/admin";//
+const server_url = process.env.BACKEND_URL+"admin";
 // const server_url = "http://ec2-13-215-184-19.ap-southeast-1.compute.amazonaws.com:9000/admin";
 
 class AdminService{

@@ -7,7 +7,7 @@ const Website = () => {
     const navigate = useNavigate();
 
     const handleLoginClick = () => {
-        window.location.href = `/123/123`;
+        window.location.href = `/2004497059/123`;
         // URL for the login page that will be opened in the popup
         const loginUrl = `/_login/2004094870?success_url=${encodeURIComponent(window.location.origin)}`; // Adjust this URL as needed
         // const loginUrl = `https://master.drkcd9ol0en6z.amplifyapp.com/login/1708286357796?success_url=${encodeURIComponent(window.location.origin)}`; // Adjust this URL as needed

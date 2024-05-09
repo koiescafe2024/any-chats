@@ -1,6 +1,6 @@
 import axios from "axios"
 
- const server_url = "https://olll-cha-ts-backend.6o1yzt.easypanel.host/line";
+ const server_url = process.env.BACKEND_URL+"line";
 // const server_url = "https://f9ff-37-152-145-152.ngrok-free.app/line";
 //const server_url = "https://definitelynotabank.com:9000/line";
 // const server_url = "http://ec2-13-215-184-19.ap-southeast-1.compute.amazonaws.com:9000/line";
