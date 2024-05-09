@@ -28,7 +28,7 @@ function Home() {
  
 
   // const socket = new WebSocket(`wss://f9ff-37-152-145-152.ngrok-free.app/frontend`);
-  const socket = new WebSocket(`wss://${process.env.WS_URL}"frontend/${params.user_id}/${params.profile_id}`);
+  const socket = new WebSocket(`wss://any-chats-back-end-chat.yi9ne2.easypanel.host/frontend/${params.user_id}/${params.profile_id}`);
 
 
   useEffect( () => {
