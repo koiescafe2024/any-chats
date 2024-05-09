@@ -24,8 +24,8 @@ app.use(cors(
             "http://localhost:80",
             "https://olll-cha-ts-backend.6o1yzt.easypanel.host:9000",
             "https://olll-cha-ts-backend.6o1yzt.easypanel.host",
-            "https://olll-cha-ts-frontend.6o1yzt.easypanel.host:80",
-            "https://olll-cha-ts-frontend.6o1yzt.easypanel.host"
+            "https://any-chats-front-end-chat.yi9ne2.easypanel.host:80",
+            "https://any-chats-front-end-chat.yi9ne2.easypanel.host"
 
             
           ],
