@@ -20,7 +20,7 @@ const File = ( {setReply, setFileName, imageIcon, reply, replyImage}) => {
         setSelectedFile(file);
 
         if (setReply){
-            setReply(prevReply => prevReply + "File download: https://181f-2401-4900-1c2b-c482-ac7c-f0cf-7e28-ac0b.ngrok-free.app/files/download/" + newFileName)
+            setReply(prevReply => prevReply + "File download: https://any-chats-back-end-chat.yi9ne2.easypanel.host/files/download/" + newFileName)
         }
         if (setFileName){
             setFileName(newFileName)
